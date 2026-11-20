@@ -15,7 +15,7 @@ I launched an EC2 instance on AWS using the `t3.micro` instance type.
 
 I configured the instance to allow HTTP traffic on port 80 so that the web server could be accessed through a browser.
 
-![EC2 Instance](images/ec2-instance.png)
+
 
 ### 2. Installed Nginx
 
@@ -33,7 +33,7 @@ I configured an A record in Cloudflare to point my domain name to the public IPv
 
 An A record maps a domain name to an IPv4 address, allowing devices to locate the server associated with that domain.
 
-![Cloudflare DNS](images/dns-record.png)
+
 
 ### 5. Tested the Web Server
 
@@ -41,7 +41,7 @@ After configuring the DNS record, I entered my domain name into Safari.
 
 The Nginx welcome page appeared successfully, confirming that my domain was able to reach the web server.
 
-![Nginx Welcome Page](images/nginx-webpage.png)
+
 
 ## How It Works
 
